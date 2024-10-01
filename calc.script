@@ -1,0 +1,39 @@
+
+~\script1.js 
+1 // Get the display element 
+2 const display = document.getElementById('display'); 
+3 
+4 // Get all the button elements 
+5 const buttons = document.querySelectorAll('.keys button'); 
+6 
+7 // Initialize the display value 
+8 let displayValue = ''; 
+9 
+10 // Add event listeners to each button 
+11 buttons.forEach((button) => { 
+12 button.addEventListener('click', (e) => { 
+13 const buttonText = e.target.textContent; 
+14 switch (buttonText) { 
+15 case 'AC': 
+16 displayValue = ''; 
+17 break; 
+18 case '=': 
+19 try { 
+20 displayValue = eval(displayValue); 
+21 } catch (e) { 
+22 displayValue = 'Error'; 
+23 } 
+24 break; 
+25 case '%': 
+26 displayValue += '%'; 
+27 break; 
+28 case 'x²': 
+29 displayValue += '**2'; 
+30 break; 
+31 default: 
+32 displayValue += buttonText; 
+33 } 
+34 display.value = displayValue; 
+35 }); 
+36 }); 
+localhost:58634/17018e37-9a7f-4c1e-8066-7a0a5056c01c/ 
