@@ -1,0 +1,60 @@
+
+~\styles1.css 
+1body{ 
+2font-family:Arial,sans-serif; 
+3background-color:#f0f0f0; 
+4} 
+5
+6.container{ 
+7max-width:300px; 
+8margin:40pxauto; 
+9padding:20px; 
+10background-color:#fff; 
+11border:1pxsolid#ddd; 
+12box-shadow:0010pxrgba(0,0,0,0.1); 
+13} 
+14 
+15.calculator{ 
+16display:flex; 
+17flex-direction:column; 
+18align-items:center; 
+19padding:20px; 
+20} 
+21 
+22.keys{ 
+23display:flex; 
+24flex-wrap:wrap; 
+25justify-content:center; 
+26} 
+27 
+28button{ 
+29width:50px; 
+30height:50px; 
+31margin:10px; 
+32font-size:24px; 
+33font-weight:bold; 
+34border:none; 
+35border-radius:50%; 
+36background-color:#4CAF50; 
+37color:#fff; 
+38cursor:pointer; 
+39} 
+40 
+41button:hover{ 
+42background-color:#3e8e41; 
+43} 
+44 
+45#display{ 
+46width:100%; 
+47height:40px; 
+48font-size:24px; 
+49font-weight:bold; 
+50padding:10px; 
+51border:none; 
+localhost:58312/55d85f2a-2ea7-40f9-8d30-b175513a8469/1/2
+7/4/24, 2:48 PM styles1.css 
+52 border-radius: 10px; 
+53 background-color: #fff; 
+54 text-align: right; 
+55 } 
+localhost:58312/55d85f2a-2ea7-40f9-8d30-b175513a8469/ 
